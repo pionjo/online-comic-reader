@@ -1,0 +1,111 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+div img {
+    border-radius: 20px;
+    height:"50px"; 
+    width:"70px";
+    position: relative;
+    padding-left: 0px;
+}
+
+.navbar, .secnavbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-around;
+   border: 1px solid black;
+}
+
+.nav-right, .nav-searchbar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-around;
+    padding-right: 1px;
+}
+.nav-middle a, .nav-content a{
+    text-decoration: none;
+    color: cadetblue;
+    
+}
+.nav-middle, .nav-content{
+    display: flex;
+    gap: 25px;
+}
+.nav-right button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #2563eb;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+     display: flex;
+     gap: 10px;
+     border: 1px solid black;
+}
+#comics-container{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.header{
+    flex:75%;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* align-items: flex-start; */
+}
+
+.sidebar{
+    flex: 25%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+footer{
+   
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.header img{
+    height: 300px;
+    padding: 10px;
+}
+.header div{
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+.announce, .currentseries {
+    height:50%;
+    text-align: center;
+    border: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+
+
+

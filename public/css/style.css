@@ -1,0 +1,15 @@
+
+#navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+img{
+    padding-left: 10px;
+}
+#navber-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
